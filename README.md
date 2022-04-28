@@ -2,17 +2,22 @@
 Class: CS3793  
 Term: Spring 2022  
 Project Proposal: Weapon Infrared Detection AI  
-Team 10: Joe Miller, Joshua Ellis, David Kent, Jacob Shawver, Jose Sarmiento Ruiz  
-
-AI Research
+AI Research Team:  
 Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
+
+## Table of Contents:
+* [Backgorund](#background)
 
 ## Background:
 We chose the topic of object detection for weapons, because it is an important part to keep the people safe. There are a lot of methods in use today…..
 
 ## Purpose/Hypothesis:
-We believe that the existing methods are outdated and should be replaced. We want to show that the usage of FLIR AI object detection would increase the percentage and reliability of detection….    
-Existing Methods:
+We believe that the existing methods are outdated and should be replaced. We want to show that the usage of FLIR AI object detection would increase the percentage and reliability of detection….   
+
+## Technologies:
+
+
+## Existing Methods:
 Active Sensors:
 Using a bandwidth of 400 Mhz it does a 2D scan of the target, that is at a maximum of 3 - 4 meters away.[2] Active Imaging uses the radiation reflections from the scanned scene to create an image.[5] This procedure takes a couple of minutes. While faster than passive sensors, being locked at 400 Mhz, the image produced by the scan is way worse and makes it hard to distinguish a concealed weapon from the body. The higher the frequency the better the resolution of the image. One of the reasons it has trouble displaying a clear image is that weapons have many faceted surface parts, which can reflect the radiation differently and thus requires good positioning or luck for the sensors to catch all of them. Another negative of this method  is it being easily stopped by heavy materials like cotton, since the low frequencies don’t have enough power to penetrate them and be reflected back.[2] Thanks to it having a bad reliability in catching the reflections bouncing off of metallic objects and the other mentioned issues, makes it, compared to other detection methods, one of the worst with its detection probability being the lowest.[1]
 

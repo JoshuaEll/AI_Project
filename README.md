@@ -6,7 +6,10 @@ AI Research Team:
 Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
 
 ## Table of Contents:
-* [Backgorund](#background)
+* [Background](#background)
+* [Purpose/Hypothesis](#purpose/hypothesis)
+* [Technologies](#technologies)
+* [Existing Methods](#existingMethods)
 
 ## Background:
 We chose the topic of object detection for weapons, because it is an important part to keep the people safe. There are a lot of methods in use today…..

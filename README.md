@@ -22,6 +22,10 @@ We believe that the existing methods are outdated and should be replaced. We wan
 
 ## Technologies:
 
+## Experimental Setup
+We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons.
+
+
 
 ## Existing Methods:
 Active Sensors:

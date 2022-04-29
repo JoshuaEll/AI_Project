@@ -37,7 +37,7 @@ This uses a Stepped frequency continuous wave radar inside a phase array, to fin
 ### Walk-Through Metal Object Detector
 The most basic of all detection systems. It produces a magnetic field with any metallic object. This interaction between the detector and the metallic or electrically conductive object generates an electric current, which the machine then detects. The problem with this is that in today’s age, with the invention of 3D printers that can create weapons out of material that are not electrically conductive, this machine can be outsmarted. There also exists the problem with locality, since these machines cannot be placed in areas where they can get wet.[3]
 
-![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)  
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/WalkThroughObjectMetalDetector.png)  
 
 ### Image Processing With IR:
 Uses sensors to pick up infrared radiation emitted from the targets

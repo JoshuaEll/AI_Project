@@ -31,22 +31,19 @@ Using a bandwidth of 400 Mhz it does a 2D scan of the target, that is at a maxim
 ### Phased Array Antenna:
 This uses a Stepped frequency continuous wave radar inside a phase array, to find the item that is hidden and what kind of item it is. The way this works is that the synthesized pulse hits the object, creates ringing, which each different tone has to be known before the scan, and returns as something known as the Late Time Response(LTR). The returned radiation contains  information, which can be used to identify any objects hidden. The issue that exists with this method is that the Complex Natural Resonant (CNR) frequencies that are inside of the LTR are not just from the hidden object, but also from the surroundings being hit by the radiation, since the CNR frequencies independent of the shapes, and thus it can end up messing with the end result. Another part that corrupts the results is the length of time needed for each section of the body to return to the transmitter and receiver.[6]
 
-![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)
-
-
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)  
 (Figure 1,Phased Array Imaging, [6])
 
-### Acoustic-Based Hard Object Detector:
-This is a handheld device that creates soundwaves and uses these to detect potential weapons. Depending on the material the volume of the sound reflected changes. Hard objects, especially metal, make loud sounds, while things like plastic make low sounds. The problem with this method is, that it gets triggered by all kinds of objects, not only weapons and items made out of leather will create a loud sound making it possible to hide weapons inside of or under it.[3] Another issue is that this kind of method is normally not automated and requires a Human to be present, which can endanger them.
+### Walk-Through Metal Object Detector
+The most basic of all detection systems. It produces a magnetic field with any metallic object. This interaction between the detector and the metallic or electrically conductive object generates an electric current, which the machine then detects. The problem with this is that in today’s age, with the invention of 3D printers that can create weapons out of material that are not electrically conductive, this machine can be outsmarted. There also exists the problem with locality, since these machines cannot be placed in areas where they can get wet.[3]
 
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)  
 
 ### Image Processing With IR:
 Uses sensors to pick up infrared radiation emitted from the targets
 body to be sent to an image processing algorithm. The underlying theory is that the infrared radiation emitted by the human body is absorbed by the clothing and then re-emitted by it. As a result, infrared radiation can be used to show the image of a concealed weapon only when the clothing is tight, thin and stationary [4]. In contrast to this, using IR detection will not work on loose fitting clothing, the infrared radiation gets blurry and spread over the clothing. This decreases the likelihood that it can be processed to a degree that the weapon will be detected.
 
-![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/ImageProcessingWithIR.png)
-
-(this is a dogshit source im gonna change this btw)
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/ImageProcessingWithIR.png)  
 This shows how a target's body heat can be masked through clothing
 
 ### Passive Sensor At 94Hz:

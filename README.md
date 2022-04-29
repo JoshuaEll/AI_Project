@@ -12,7 +12,10 @@ Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
 * [Existing Methods](#existingMethods)
 
 ## Background:
-We chose the topic of object detection for weapons, because it is an important part to keep the people safe. There are a lot of methods in use today…..
+The prominence of weapon violence in the form of small crime and domestic terrorism is a huge concern for many families. Unfortunately, prevention for these attacks is often very costly, time-inefficient, and can heighten our fears of the attacks rather than reduce it. One of the main preventative strategies is installing metal detectors before building entrances or patting down individuals to detect weapons that one may conceal beneath clothing. Though effective, this is costly, increases wait times to enter buildings, and potentially heightens anxiety of those entering.
+
+Fortunately, there may be a way to make these security procedures much more efficient using artificial intelligence. Object detection is a widely-studied field in the realm of AI, and the ability to train an AI to detect handguns and knives is at this point almost trivial given widely available public datasets. As such, our group hopes to utilize this to train an AI to be able to detect weapons concealed by the user by using the infrared/thermal spectrum, detecting cold spots on the body caused by the hidden weapon. If feasible, this could greatly improve the efficiency of preventative measures, while also pre-empting potential privacy concerns caused by installing an always-active camera for a building entrance.
+
 
 ## Purpose/Hypothesis:
 We believe that the existing methods are outdated and should be replaced. We want to show that the usage of FLIR AI object detection would increase the percentage and reliability of detection….   

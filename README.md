@@ -115,6 +115,8 @@ Four models were trained, chosen based on their success with use in IoT (interne
 ## Results:
 The inference time was extremely good, each under one second, satisfying a requirement for adequate speed. For accuracy, our best-performing model had an average recall and precision around the 60% mark, and we could see many of the false positives just from browsing the images as the models inference based on the shapes and outlines of a weapon. This has a positive and a negative side: it is positive in that it implies it would work with infrared detection (though we sadly could not find infrared images of people carrying weapons), but negative in that it suggests human oversight may still be needed. Nonetheless, a security camera of this nature should still be more efficient than existing detection methods (which also require human oversight).
 
+
+![Alt-text](./GitHubImages/models_proCons.png)
 ![Alt-text](./GitHubImages/algorithm_results.png)
 
 

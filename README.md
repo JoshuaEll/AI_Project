@@ -99,7 +99,7 @@ There exists multiple versions of the preceding methods that have only small dif
 
 
 ## Experimental Setup
-We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons. The notebooks in the repository each come with their own setup. To run then please use Google Colab.  
+We shall use existing training methods to train an AI on the [Pistols Dataset](https://public.roboflow.com/object-detection/pistols) provided by the University of Granada on Roboflow. The dataset contains over 2,000 iamges and over 3,000 labels with a single annotation class: pistols. We will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons. The notebooks in the repository each come with their own setup. To run then please use Google Colab.  
 
 
 ## Model Results:

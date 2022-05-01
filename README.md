@@ -39,7 +39,7 @@ Using radiation with a bandwidth of 400 Mhz it does a 2D scan of the target, tha
 
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/ActiveSensors.png)
 
-(Fig. 11, [2], left picture unarmed person, right picture armed person)
+*(Fig. 11, [2], left picture unarmed person, right picture armed person)*
   
   
   
@@ -47,14 +47,17 @@ Using radiation with a bandwidth of 400 Mhz it does a 2D scan of the target, tha
 This uses a Stepped frequency continuous wave radar inside a phase array, to find the item that is hidden and what kind of item it is. The way this works is that the synthesized pulse hits the object, creates ringing, which each different tone has to be known before the scan, and returns as something known as the Late Time Response(LTR). The returned radiation contains  information, which can be used to identify any objects hidden. The issue that exists with this method is that the Complex Natural Resonant (CNR) frequencies that are inside of the LTR are not just from the hidden object, but also from the surroundings being hit by the radiation, since the CNR frequencies are independent of the shapes, it can end up messing with the resulting image. Another part that corrupts the results is the length of time needed for each section of the body to return to the transmitter and receiver.[6]
   
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)  
-(Figure 1,Phased Array Imaging, [6])
+*(Figure 1,Phased Array Imaging, [6])*
+
   
   
   
 ### Walk-Through Metal Object Detector
 The most basic of all detection systems. It produces a magnetic field with any metallic object.[13] This interaction between the detector and the metallic or electrically conductive object generates an electric current, which the machine then detects.[8] The problem with this is that in today’s age, with the invention of 3D printers that can create weapons out of material that are not electrically conductive, this machine can be outsmarted. There also exists the problem with locality, since these machines cannot be placed in areas where they can get wet.[3] Also the necessity for personnel to be close by is also a demerit.[9]
   
-![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/WalkThroughObjectMetalDetector.png)  
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/WalkThroughObjectMetalDetector.png) 
+*(Figure 15. Diagram of a metal detector with an object inside the detection space[3])*
+
   
   
   
@@ -64,7 +67,9 @@ body to be sent to an image processing algorithm. The underlying theory is that 
 
   
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/ImageProcessingWithIR.png)  
-This shows how a target's body heat can be masked through clothing
+*(fig 2, [7])
+This shows how a target's body heat can be masked through clothing*
+
   
   
   
@@ -73,8 +78,9 @@ This method uses Passive mm-wave (MMW) imaging to detect concealed weapons under
   
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PassiveSensorAt94HZ.png)
   
-(fig. 4., [2])
-Shows the nature of the terrible resolution of passive sensing
+*(fig. 4., [2])
+Shows the nature of the terrible resolution of passive sensing.*
+
    
   
   

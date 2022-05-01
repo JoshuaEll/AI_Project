@@ -87,7 +87,7 @@ Shows the nature of the terrible resolution of passive sensing.*
   
 ## Experimental Analysis:
 
-In this section there are research papers related to weapons detection with an accompanying summary.
+In this section there are additional research papers related to weapons detection with an accompanying summary.
 
 ### AI assisted passive millimeter-wave imaging:  
 Different from active modes, the millimeter sensor usually relies on its strong penetrability, and targets can be identified through their naturally emitted and reflected radiations, detected by using a Passive Millimeter Wave imaging system[10]. Through the use of multiple image processing techniques using AI can create a more reliable weapon detection system. Methods like image denoising, image fusion, segmentation, classification, and most importantly object detection and recognition[10]. Using these methods ,in tandem with a higher base frequency over 94Ghz, eliminates the problem PMMW imaging has with lower resolution images and creates a more reliable detection system.
@@ -114,6 +114,8 @@ Four models were trained, chosen based on their success with use in IoT (interne
 
 ## Results:
 The inference time was extremely good, each under one second, satisfying a requirement for adequate speed. For accuracy, our best-performing model had an average recall and precision around the 60% mark, and we could see many of the false positives just from browsing the images as the models inference based on the shapes and outlines of a weapon. This has a positive and a negative side: it is positive in that it implies it would work with infrared detection (though we sadly could not find infrared images of people carrying weapons), but negative in that it suggests human oversight may still be needed. Nonetheless, a security camera of this nature should still be more efficient than existing detection methods (which also require human oversight).
+
+![Alt-text](./GitHubImages/algorithm_results.png)
 
 
 

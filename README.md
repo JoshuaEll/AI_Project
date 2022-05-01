@@ -21,9 +21,13 @@ Fortunately, there may be a way to make these security procedures much more effi
 We believe that the existing methods are outdated and should be replaced. We want to show that the usage of FLIR AI object detection would increase the percentage and reliability of detection….   
 
 ## Technologies:
+* Pyhton 3.X
+* Google Colab
+* TensorFlow
+* RoboFlow
 
 ## Experimental Setup
-We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons.
+We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons. The notebooks in the repository each come with their own setup. To run then please use Google Colab.
 
 
 

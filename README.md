@@ -11,6 +11,7 @@ Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
 * [Technologies](#technologies)
 * [Existing Methods](#existing-Methods)
 * [Experimental Analysis](#experimental-analysis)
+* [Experimental Setup](#experimental-setup)
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [References](#references)
@@ -22,7 +23,7 @@ Fortunately, there may be a way to make these security procedures much more effi
   
   
 ## Purpose/Hypothesis:
-We believe that the existing methods are outdated and should be replaced. We want to show that the usage of FLIR AI object detection would increase the percentage and reliability of detection….   
+Existing methods weapons detection methods are outdated. We want to show that the usage of AI object detection with FLIR would increase the reliability and efficiency of weapons detection.  
 
 ## Technologies:
 * Pyhton 3.X

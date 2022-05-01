@@ -61,5 +61,11 @@ This method uses Passive mm-wave (MMW) imaging to detect concealed weapons under
 (fig. 4., [2])
 Shows the nature of the terrible resolution of passive sensing
 
+## Expiremental Analysis
+
+
+## Results
 
 Why AI detection using FLIR Imaging is better:
+
+

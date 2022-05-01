@@ -45,10 +45,14 @@ This uses a Stepped frequency continuous wave radar inside a phase array, to fin
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PhasedArrayAntenna.png)  
 (Figure 1,Phased Array Imaging, [6])
 
+
+
 #### Walk-Through Metal Object Detector
 The most basic of all detection systems. It produces a magnetic field with any metallic object. This interaction between the detector and the metallic or electrically conductive object generates an electric current, which the machine then detects. The problem with this is that in today’s age, with the invention of 3D printers that can create weapons out of material that are not electrically conductive, this machine can be outsmarted. There also exists the problem with locality, since these machines cannot be placed in areas where they can get wet.[3]
 
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/WalkThroughObjectMetalDetector.png)  
+
+
 
 #### Image Processing With IR:
 Uses sensors to pick up infrared radiation emitted from the targets
@@ -57,6 +61,8 @@ body to be sent to an image processing algorithm. The underlying theory is that 
 ![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/ImageProcessingWithIR.png)  
 This shows how a target's body heat can be masked through clothing
 
+
+
 #### Passive Sensor At 94Hz:
 This method uses Passive mm-wave (MMW) imaging to detect concealed weapons under any kind of clothing [2]. This method is very effective with natural illumination during its original tests, but is very time consuming and generally low quality in terms of resolution.With the advent of LNAs with an improved noise ﬁgure, effort was put into an optimisation of the scanning process. The scanning time was reduced to 2.5minutes using only a single channel receiver [2]. Although the resolution of a passive sensor is far superior to that of an active sensor, It is still lackluster in regards to what is observable to the human eye.
 
@@ -64,6 +70,9 @@ This method uses Passive mm-wave (MMW) imaging to detect concealed weapons under
 
 (fig. 4., [2])
 Shows the nature of the terrible resolution of passive sensing
+
+
+
 
 ## Expiremental Analysis:
 

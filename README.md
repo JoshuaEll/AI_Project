@@ -1,8 +1,8 @@
 # AI_Project - Weapon Infrared Detection AI
-Class: CS3793  
-Term: Spring 2022  
-Project Proposal: Weapon Infrared Detection AI  
-AI Research Team:  
+**Class:** CS3793  
+**Term:** Spring 2022  
+**Project Proposal:** Weapon Infrared Detection AI  
+**AI Research Team:**  
 Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
 
 ## Table of Contents:

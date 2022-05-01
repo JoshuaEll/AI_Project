@@ -76,7 +76,7 @@ This shows how a target's body heat can be masked through clothing*
 ### Passive Sensor At 94Hz:
 This method uses Passive mm-wave (MMW) imaging to detect concealed weapons under any kind of clothing [2]. This method is very effective with natural illumination during its original tests, but is very time consuming and generally low quality in terms of resolution.With the advent of LNAs with an improved noise ﬁgure, effort was put into using only a single channel receiver [2]. Although the resolution of a passive sensor is far superior to that of an active sensor, it is still lackluster as the imaging environment and the imaging hardware limitations usually result in low spatial resolution[10].
   
-![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PassiveSensorAt94HZ.png)
+![alt text](https://github.com/tr201/AI_Project/blob/main/GitHubImages/PassiveSensorAt94HZ.png)  
   
 *(fig. 4., [2])
 Shows the nature of the terrible resolution of passive sensing.*

@@ -83,11 +83,27 @@ Shows the nature of the terrible resolution of passive sensing
 
 In this section there are research papers related to weapons detection with an accompanying summary.
 
-## Results:
+### AI assisted passive millimeter-wave imaging:  
+Different from active modes, the millimeter sensor usually relies on its strong penetrability, and targets can be identified through their naturally emitted and reflected radiations, detected by using a Passive Millimeter Wave imaging system[10]. Through the use of multiple image processing techniques using AI can create a more reliable weapon detection system. Methods like image denoising, image fusion, segmentation, classification, and most importantly object detection and recognition[10]. Using these methods ,in tandem with a higher base frequency over 94Ghz, eliminates the problem PMMW imaging has with lower resolution images and creates a more reliable detection system.
 
-Why AI detection using FLIR Imaging is better:
+
+### Holographic phased antenna array:  
+This version of the phased antenna array uses a sensor that is mechanically rotated and sends out a signal, which returns a electromagnetic responses. While the sensor rotates around the body, the distance from the hidden object in relation to the body will be different. This will end up being picked up by the holographic image algorithm.
+
+### Image Processing Through IR With Detectron2:  
+This was the best method we could use for weapons detection through IR as using the DETECTRON2 algorithm created the highest overall accuracy of all the algorithms we tested.
+
+ 
+
+### Research Literature Conclusion:
+
+There exists multiple versions of the preceding methods that have only small differences in how they execute. For example in the case of Passive millimeter-wave imaging, with its multiple versions. These differences are too small to be worth mentioning. In our research we also found methods that were still in research or not released yet. Just to mention a few: Acoustic-Based Hard Object Detector that hits the object with an acoustic beam, which then produces a high pitched sound.[3]  And a method that uses 3D scanning combined with AI to locate hidden objects.[12]
+
+
+## Model Results:
+
 
 
 ## Conclusion:
 
-
+Why AI detection using FLIR Imaging is better:

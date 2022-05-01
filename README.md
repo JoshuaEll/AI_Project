@@ -29,13 +29,9 @@ We believe that the existing methods are outdated and should be replaced. We wan
 * Google Colab
 * TensorFlow
 * RoboFlow
-
-## Experimental Setup
-We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons. The notebooks in the repository each come with their own setup. To run then please use Google Colab.
+ 
   
-  
-  
-## Existing Methods:
+## Existing Detection Methods:
 ### Active Sensors:  
 Using a bandwidth of 400 Mhz it does a 2D scan of the target, that is at a maximum of 3 - 4 meters away.[2] Active Imaging uses the radiation reflections from the scanned scene to create an image.[5] This procedure takes a couple of minutes. While faster than passive sensors, being locked at 400 Mhz, the image produced by the scan is way worse and makes it hard to distinguish a concealed weapon from the body. The higher the frequency the better the resolution of the image. One of the reasons it has trouble displaying a clear image is that weapons have many faceted surface parts, which can reflect the radiation differently and thus requires good positioning or luck for the sensors to catch all of them. Another negative of this method  is it being easily stopped by heavy materials like cotton, since the low frequencies don’t have enough power to penetrate them and be reflected back.[2] Thanks to it having a bad reliability in catching the reflections bouncing off of metallic objects and the other mentioned issues, makes it, compared to other detection methods, one of the worst with its detection probability being the lowest.[1]
 
@@ -99,6 +95,10 @@ This was the best method we could use for weapons detection through IR as using 
 ### Research Literature Conclusion:
 
 There exists multiple versions of the preceding methods that have only small differences in how they execute. For example in the case of Passive millimeter-wave imaging, with its multiple versions. These differences are too small to be worth mentioning. In our research we also found methods that were still in research or not released yet. Just to mention a few: Acoustic-Based Hard Object Detector that hits the object with an acoustic beam, which then produces a high pitched sound.[3]  And a method that uses 3D scanning combined with AI to locate hidden objects.[12]
+
+
+## Experimental Setup
+We shall use existing training methods to train an AI on a dataset of at least 10,000 images to learn the outline of guns. Though we will unfortunately have to use the visible light spectrum for training this AI—since large, free thermal datasets for weapons aren’t available—it will still be sufficient for detecting weapons. At this point, we can test the model on a handful of IR images of those people concealing weapons. The notebooks in the repository each come with their own setup. To run then please use Google Colab.  
 
 
 ## Model Results:

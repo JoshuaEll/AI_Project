@@ -79,7 +79,7 @@ Shows the nature of the terrible resolution of passive sensing
   
   
   
-## Expiremental Analysis:
+## Experimental Analysis:
 
 In this section there are research papers related to weapons detection with an accompanying summary.
 

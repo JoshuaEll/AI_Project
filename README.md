@@ -10,7 +10,7 @@ Joe Miller, David Kent, Joshua Ellis, Jose Sarmiento Ruiz, Jacob Shawver
 * [Purpose/Hypothesis](#purpose/hypothesis)
 * [Technologies](#technologies)
 * [Existing Methods](#existingMethods)
-* [Experimental Analysis](#experimental analysis)
+* [Experimental Analysis](#experimentalanalysis)
 * [Results](#results)
 * [Conclusion](#conclusion)
 

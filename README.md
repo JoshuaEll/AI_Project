@@ -1,4 +1,4 @@
-# AI_Project - Weapon Infrared Detection AI
+# AI Weapons Detection with Infrared Technology
 **Class:** CS3793  
 **Term:** Spring 2022  
 **Project Proposal:** Weapon Infrared Detection AI  
